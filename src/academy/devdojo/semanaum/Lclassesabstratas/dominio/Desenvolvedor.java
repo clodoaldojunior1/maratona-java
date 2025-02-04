@@ -6,6 +6,11 @@ public class Desenvolvedor extends Funcionario{
     }
 
     @Override
+    public double calcularDesconto() {
+        return 0;
+    }
+
+    @Override
     public String toString() {
         return "Desenvolvedor{" +
                 "nome='" + nome + '\'' +

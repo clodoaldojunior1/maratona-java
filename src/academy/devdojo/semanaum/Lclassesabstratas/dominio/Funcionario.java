@@ -9,8 +9,6 @@ public abstract class Funcionario {
         this.salario = salario;
         calcularDesconto();
     }
-    public double calcularDesconto (){
-        return this.salario = this.salario + this.salario *0.1;
-    }
+    public abstract double calcularDesconto ();
 
 }
